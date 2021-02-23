@@ -9,22 +9,34 @@ import './App.css';
 class App extends React.Component {
 
   state = {
-    monkey: monkey
+    monkey: monkey,
+    counter : 0
   };
 
+
+monkeyClick = (id) =>{
+  const shuffMonkey = this.state.monkey;
+  console.log(id)
+  this.setState({ monkey: shuffMonkey})
+};
+
 render() {
+  var self = this;
   return (
     <Wrapper>
       <Navbar></Navbar>
       <Header></Header>
-      {this.state.monkey.map(function (monkey){
+      <div className="container">
+        {this.state.monkey.map(function (monkey){
       return (<div 
         id={monkey.id}
         name={monkey.name}
-        class="monkey"
+        className="monkey"
+        key={monkey.id}
+        onClick= {() => self.monkeyClick(monkey.id)}
         style={{backgroundImage: `url(${monkey.image})`}} 
-        ></div>)})}
-      <Footer></Footer> 
+        ></div>)})}</div>
+      <Footer></Footer>
     </Wrapper>
   );
 }
