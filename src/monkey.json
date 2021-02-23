@@ -1,32 +1,32 @@
 [
     {
         "id" : 1,
-        "image" : "/assets/baboon.jpg",
+        "image" : "./assets/baboon.jpg",
         "name" : "baboon"
     },
     {
         "id" : 2,
-        "image" : "/assets/bobono.jpg",
+        "image" : "./assets/bobono.jpg",
         "name" : "Kanzi bobono"
     },
     {
         "id" : 3,
-        "image" : "/assets/capuchin.jpg",
+        "image" : "./assets/capuchin.jpg",
         "name" : "capuchin"
     },
     {
         "id" : 4,
-        "image" : "/assets/chimpanzee.jpg",
+        "image" : "./assets/chimpanzee.jpg",
         "name" : "chimpanzee"
     },
     {
         "id" : 5,
-        "image" : "/assets/gibbon.jpg",
+        "image" : "./assets/gibbon.jpg",
         "name" : "gibbon"
     },
     {
         "id" : 6,
-        "image" : "/assets/Golden-Lion-Tamarin.jpg",
+        "image" : "./assets/Golden-Lion-Tamarin.jpg",
         "name" : "tamarin"
     },
     {
