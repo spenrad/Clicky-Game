@@ -9,25 +9,35 @@ import './App.css';
 class App extends React.Component {
 
   state = {
-    monkey: monkey,
-    counter : 0
+    monkey,
+    score : 0,
+    topScore : 0,
+    message: "Click a monkey!" 
   };
 
-
 monkeyClick = (id) =>{
-  const shuffMonkey = this.state.monkey;
+  const shuffMonkey = this.state.monkey
   console.log(id)
-  this.setState({ monkey: shuffMonkey})
+  this.setState({
+    monkey: shuffMonkey.sort(() => Math.random() - 0.5),
+    score : this.score,
+    topScore : this.score,
+    message: this.message
+  })  
+
 };
 
 render() {
   var self = this;
   return (
     <Wrapper>
-      <Navbar></Navbar>
+      <Navbar
+      score= {this.state.score}
+      topScore= {this.state.topScore}
+      message = {this.state.message}></Navbar>
       <Header></Header>
       <div className="container">
-        {this.state.monkey.map(function (monkey){
+        {self.state.monkey.map(function (monkey){
       return (<div 
         id={monkey.id}
         name={monkey.name}
