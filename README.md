@@ -4,7 +4,7 @@ Clicky-Game
 # Description
 Clicky-Game is a React application in the form of a picture memory game that shuffles around images of monkies and counts scores for unique clicks. Every click shuffles the board, incorrect clicks will reset your score, and correct clicks will increment your score up to a total of 12.
 
-![monkey](/readmepics/monkeygame.jpg)
+![monkey](./public/assets/monkeygame.jpg)
 
 ----
 

@@ -18,7 +18,6 @@
 .env.test.local
 .env.production.local
 README.react.md
-/readmepics
 
 npm-debug.log*
 yarn-debug.log*
