@@ -1,0 +1,62 @@
+[
+    {
+        "id" : 1,
+        "image" : "./assets/baboon.jpg",
+        "name" : "baboon"
+    },
+    {
+        "id" : 2,
+        "image" : "./assets/bobono.jpg",
+        "name" : "Kanzi bobono"
+    },
+    {
+        "id" : 3,
+        "image" : "./assets/capuchin.jpg",
+        "name" : "capuchin"
+    },
+    {
+        "id" : 4,
+        "image" : "./assets/chimpanzee.jpg",
+        "name" : "chimpanzee"
+    },
+    {
+        "id" : 5,
+        "image" : "./assets/gibbon.jpg",
+        "name" : "gibbon"
+    },
+    {
+        "id" : 6,
+        "image" : "./assets/Golden-Lion-Tamarin.jpg",
+        "name" : "tamarin"
+    },
+    {
+        "id" : 7,
+        "image" : "./assets/Howler.jpg",
+        "name" : "howler"
+    },
+    {
+        "id" : 8,
+        "image" : "./assets/Japanese-Macaque.jpg",
+        "name" : "macaque"
+    },
+    {
+        "id" : 9,
+        "image" : "./assets/mandrill-baboon.jpg",
+        "name" : "mandrill"
+    },
+    {
+        "id" : 10,
+        "image" : "./assets/marmoset.jpg",
+        "name" : "marmoset"
+    },
+    {
+        "id" : 11,
+        "image" : "./assets/Proboscis.jpg",
+        "name" : "proboscis"
+    },
+    {
+        "id" : 12,
+        "image" : "./assets/Rhesus-Macaque.jpg",
+        "name" : "rhesus"
+    }
+]
